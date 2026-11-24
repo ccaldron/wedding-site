@@ -1,6 +1,8 @@
 # Christian & Allie's wedding site
 
-The website at **https://wedding.caldrooten.com**. It is one page of plain HTML, hosted free on GitHub Pages. No build step, no framework.
+The website at **https://wedding.caldrooten.com**. It is one page of plain HTML, hosted free on GitHub Pages from https://github.com/ccaldron/wedding-site. No build step, no framework.
+
+Live since 2026-11-24. The striped yellow notes on the page are the unfinished items from the mockup, left visible on purpose until the real answers are in (see "Unfinished items" below).
 
 > This repository is public. Anything saved here can be read by anyone.
 > Never put RSVP answers, guest lists, passwords or keys in this folder.
@@ -60,6 +62,8 @@ git push
 ```
 
 Before `git commit`, run `git status` and make sure only site files are listed. If a spreadsheet or export shows up, don't commit it.
+
+Commits from this folder are signed with the GitHub no-reply address for `ccaldron`, so no personal email appears in the public history. Run the commands from inside `wedding-site/`; the folder above it is not part of the repository.
 
 ## RSVPs
 
