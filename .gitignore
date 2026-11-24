@@ -1,0 +1,23 @@
+# RSVP answers and exports never belong in this public repository.
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.ods
+rsvp-export*
+rsvps*
+responses*
+
+# Secrets and local settings
+.env
+.env.*
+*.key
+*.pem
+secrets*
+
+# Editor and OS clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
